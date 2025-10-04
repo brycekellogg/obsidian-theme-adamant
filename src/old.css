@@ -1,0 +1,483 @@
+/**
+ *
+ *
+ */
+
+
+/* Button Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Button  */
+body {
+	/* --button-radius */
+}
+
+
+/* Checkbox Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Checkbox  */
+body {
+    --checkbox-radius: 3px;
+    --checkbox-size:calc(var(--font-text-size) * 0.85);
+	/* --checkbox-marker-color */
+	/* --checkbox-color */
+	/* --checkbox-color-hover */
+	/* --checkbox-border-color */
+	/* --checkbox-border-color-hover */
+	--checklist-done-decoration: line-through;
+	--checklist-done-color: var(--text-faint);
+}
+
+
+/* Color Input Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Color+input  */
+body {
+	/* --swatch-radius */
+	/* --swatch-height */
+	/* --swatch-width */
+	/* --swatch-shadow */
+}
+
+
+/* Dialog Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Dialog */
+body {
+	/* --dialog-width */
+	/* --dialog-max-width */
+	/* --dialog-max-height */
+}
+
+
+/* Dragging Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Dragging */
+body {
+	/* --drag-ghost-background */
+	/* --drag-ghost-text-color */
+}
+
+
+/* Indentation Guides Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Indentation+guides  */
+body {
+	/* --indentation-guide-width */
+	/* --indentation-guide-width-active */
+	/* --indentation-guide-color */
+	/* --indentation-guide-color-active */
+	/* --indentation-guide-editing-indent */
+}
+
+
+/* Modal Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Modal  */
+body {
+	/* --modal-background */
+	/* --modal-width */
+	/* --modal-height */
+	/* --modal-max-width */
+	/* --modal-max-height */
+	/* --modal-max-width-narrow */
+	/* --modal-border-width */
+	/* --modal-border-color */
+	/* --modal-radius */
+	/* --modal-community-sidebar-width */
+}
+
+
+/* Multi-Select Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Multi-select  */
+body {
+	/* --pill-color */
+	/* --pill-color-hover */
+	/* --pill-color-remove */
+	/* --pill-color-remove-hover */
+	/* --pill-decoration */
+	/* --pill-decoration-hover */
+	--pill-background: rgba(161, 127, 240, 0.1);
+	/* --pill-background-hover */
+	/* --pill-border-color */
+	/* --pill-border-color-hover */
+	/* --pill-border-width */
+	/* --pill-padding-x */
+	/* --pill-padding-y */
+	/* --pill-radius */
+	/* --pill-weight */
+}
+
+
+/* Navigation Variables - https://docs.obsidian.md/Reference/CSS+variables/Components/Navigation  */
+body {
+	/* --nav-item-size */
+	/* --nav-item-color */
+	/* --nav-item-color-hover */
+	/* --nav-item-color-active */
+	/* --nav-item-color-selected */
+	/* --nav-item-color-highlighted */
+	/* --nav-item-background-hover */
+	/* --nav-item-background-active */
+	/* --nav-item-background-selected */
+	/* --nav-item-padding */
+	/* --nav-item-parent-padding */
+	/* --nav-item-children-padding-left */
+	/* --nav-item-children-margin-left */
+	/* --nav-item-weight */
+	/* --nav-item-weight-hover */
+	/* --nav-item-weight-active */
+	/* --nav-item-white-space */
+	/* --nav-indentation-guide-width */
+	/* --nav-indetation-guide-color */
+	/* --nav-collapse-icon-color */
+	/* --nav-collapse-icon-color-collapsed */
+}
+
+
+
+
+
+
+
+
+
+
+/* Color variables  https://docs.obsidian.md/Reference/CSS+variables/Foundations/Colors  */
+body {
+	/* --color-base-00 */
+	/* --color-base-05 */
+	/* --color-base-10 */
+	/* --color-base-20 */
+	/* --color-base-25 */
+	/* --color-base-30 */
+	/* --color-base-35 */
+	/* --color-base-40 */
+	/* --color-base-50 */
+	/* --color-base-60 */
+	/* --color-base-70 */
+	/* --color-base-100 */
+	
+	/* --accent-h */
+	/* --accent-s */
+	/* --accent-l */
+	
+	/* --color-red */
+	/* --color-orange */
+	/* --color-yellow */
+	/* --color-green */
+	/* --color-cyan */
+	/* --color-blue */
+	/* --color-purple */
+	/* --color-pink */
+	/* --color-red-rgb */
+	/* --color-orange-rgb */
+	/* --color-yellow-rgb */
+	/* --color-green-rgb */
+	/* --color-cyan-rgb */
+	/* --color-blue-rgb */
+	/* --color-purple-rgb */
+	/* --color-pink-rgb */
+
+
+	--background-primary:   #262626;
+	/* --background-primary-alt: ; */
+	--background-secondary: #262626;
+	/* --background-secondary-alt: ; */
+	--background-modifier-hover: #333333;
+	/* --background-modifier-active-hover */
+	/* --background-modifier-border */
+	/* --background-modifier-border-hover */
+	/* --background-modifier-border-focus */
+	/* --background-modifier-error-rgb */
+	/* --background-modifier-error */
+	/* --background-modifier-error-hover */
+	/* --background-modifier-success-rgb */
+	/* --background-modifier-success */
+	/* --background-modifier-message */
+	/* --background-modifier-form-field */
+
+	/* --interactive-normal */
+	/* --interactive-hover */
+	/* --interactive-accent */
+	/* --interactive-accent-hsl */
+	/* --interactive-accent-hover */
+
+	/* --text-normal */
+	/* --text-muted */
+	/* --text-faint */
+	/* --text-on-accent */
+	/* --text-on-accent-inverted */
+	/* --text-success */
+	/* --text-warning */
+	/* --text-error */
+	/* --text-accent */
+	/* --text-accent-hover */
+
+	/* --text-selection */
+	/* --text-highlight-bg */
+
+    --h1-color: #e63946;
+    --h2-color: #f4a261;
+    --h3-color: #ED6E54;
+    --h4-color: #A3C4BC;
+    --h5-color: var(--text-normal);
+    --h6-color: var(--text-normal);
+}
+
+
+/* Headings Variables - https://docs.obsidian.md/Reference/CSS+variables/Editor/Headings  */
+body {
+	/* --heading-formatting */
+
+	--heading-spacing: 8px;
+	
+	/* --h1-font */
+	/* --h2-font */
+	/* --h3-font */
+	/* --h4-font */
+	/* --h5-font */
+	/* --h6-font */
+
+    --h1-line-height: 1.2em;
+    --h2-line-height: 1em;
+	--h3-line-height: 1em;
+	--h4-line-height: 1em;
+	--h5-line-height: 1em;
+	--h6-line-height: 1em;
+
+	--h1-scale: 2.0;
+	--h2-scale: 1.75;
+	--h3-scale: 1.5;
+	--h4-scale: 1.25;
+	--h5-scale: 1.0;
+	--h6-scale: 1.0;
+	
+    --h1-size: calc(var(--h1-scale) * var(--font-text-size));
+    --h2-size: calc(var(--h2-scale) * var(--font-text-size));
+    --h3-size: calc(var(--h3-scale) * var(--font-text-size));
+    --h4-size: calc(var(--h4-scale) * var(--font-text-size));
+    --h5-size: calc(var(--h5-scale) * var(--font-text-size));
+    --h6-size: calc(var(--h6-scale) * var(--font-text-size));
+   
+	--h1-style: normal;
+	--h2-style: normal;
+	--h3-style: normal;
+	--h4-style: normal;
+	--h5-style: normal;
+	--h6-style: oblique;
+
+    --h1-variant: small-caps;
+	--h2-variant: normal;
+	--h3-variant: normal;
+	--h4-variant: normal;
+	--h5-variant: normal;
+	--h6-variant: normal;
+
+	--h1-weight: 600;
+	--h2-weight: 600;
+	--h3-weight: 500;
+	--h4-weight: 500;
+	--h5-weight: 400;
+	--h6-weight: 400;
+}
+
+
+/* Link Variables - https://docs.obsidian.md/Reference/CSS+variables/Editor/Link  */
+body {
+	--link-color: var(--text-accent);
+	/* --link-color-hover */
+	--link-decoration: none;  /* no underline for un-hovered links */
+	--link-decoration-hover: underline;
+	--link-decoration-thickness: 1px;
+	/* --link-unresolved-color */
+	/* --link-unresolved-opacity */
+	/* --link-unresolved-filter */
+	/* --link-unresolved-decoration-style */
+	/* --link-unresolved-decoration-color */
+	/* --link-external-color */
+	/* --link-external-color-hover */
+	/* --link-external-decoration */
+	/* --link-external-decoration-hover */
+}
+
+
+/*Table Variables - https://docs.obsidian.md/Reference/CSS+variables/Editor/Table  */
+body {
+	--table-header-scale: 1.15;  /* custom var */
+	
+	--table-background: var(--background-primary);
+	--table-border-width: var(--border-width);
+	/* --table-border-color */
+	/* --table-cell-vertical-alignment */
+	/* --table-white-space */
+	/* --table-header-background */
+	/* --table-header-background-hover */
+	--table-header-border-width: 0;
+	/* --table-header-border-color */
+	/* --table-header-font */
+	--table-header-size: calc(var(--table-header-scale) * var(--font-text-size));
+	--table-header-weight: 700;
+	/* --table-header-color */
+	/* --table-line-height */
+	--table-text-size: var(--font-text-size);
+	/* --table-text-color */
+	/* --table-column-max-width */
+	/* --table-column-alt-background */
+	--table-column-first-border-width: 0;
+	--table-column-last-border-width: 0;
+	--table-row-background-hover: var(--background-modifier-hover);
+	--table-row-alt-background-hover: var(--background-modifier-hover);
+	--table-column-alt-background-hover: var(--background-modifier-hover);
+	/* --table-row-alt-background */
+	--table-row-last-border-width: 0;
+	/* --table-selection */
+	/* --table-selection-blend-mode */
+	/* --table-selection-border-color */
+	/* --table-selection-border-width */
+	/* --table-selection-border-radius */
+	/* --table-drag-handle-background */
+	/* --table-drag-handle-background-active */
+	/* --table-drag-handle-color */
+	/* --table-drag-handle-color-active */
+}
+
+
+
+/* Tabbles */
+table:not(.calendar) tbody tr:hover > td:nth-child(2n+2) {
+	background-color: var(--table-column-alt-background-hover);
+}
+
+
+/* Dataview */
+.table-view-table > thead > tr > th,
+.table-view-table > tbody > tr > td {
+    border-bottom: var(--table-border-width) solid var(--table-border-color);
+    border-right: var(--table-border-width) solid var(--table-border-color);
+	white-space: nowrap;
+	overflow: hidden;
+}
+ul.dataview-result-list-ul { padding-inline-start: 0px; } /* lists inside tables shouldn't be indented */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+    --p-spacing: var(--size-4-1);
+
+    /* Check Box Lists */
+    --checkbox-top:1px;
+    --checkbox-left:0px;
+    --checkbox-margin:0px 8px 0px -2em;
+	--radius-s: 0px;
+	--radius-m: 0px;
+	--radius-l: 0px;
+	--input-radius: 0px;
+	--tab-radius-active: 0px;
+	--toggle-radius: 0px;
+	--toggle-thumb-radius: 0px;
+	--slider-thumb-radius: 0px;
+}
+
+/* I don't like the "remove-button" styling on the non-tag properties.
+ * Specifically, it's too high so we override the line hight on this
+ * style to make it look like the tag "remove-button" */
+.metadata-property:not([data-property-key="tags"]) .multi-select-pill {
+    line-height: 1;
+}
+
+/* TODO: make tag properties in lists also have the rounded outline
+ * and have a greyer text color
+ * 
+ */
+.metadata-property:not([data-property-key="tags"]) {
+    --pill-color: var(--tag-color);
+    --pill-color-hover: var(--tag-color-hover);
+    --pill-color-remove: var(--tag-color);
+    --pill-color-remove-hover: var(--tag-color-hover);
+    --pill-decoration: var(--tag-decoration);
+    --pill-decoration-hover: var(--tag-decoration-hover);
+    --pill-background: var(--tag-background);
+    --pill-background-hover: var(--tag-background-hover);
+    --pill-border-color: var(--tag-border-color);
+    --pill-border-color-hover: var(--tag-border-color-hover);
+    --pill-border-width: var(--tag-border-width);
+    --pill-padding-x: var(--tag-padding-x);
+    --pill-padding-y: var(--tag-padding-y);
+    --pill-radius: var(--tag-radius);
+    --pill-weight: var(--tag-weight);
+    --pill-focus-width: 100%;
+    --pill-focus-left-adjust: 0;
+}
+
+.workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
+	display: none;
+}
+
+
+/* 
+ * Use Sibling and Has to indent sections
+ *  https://forum.obsidian.md/t/heading-and-text-after-it-indentation/53086/3
+ */
+
+/*
+div:has( > h1) {
+  position: relative;
+  left: 0px !important;
+}
+
+div:has( > h2) {
+  position: relative;
+  left: 30px;
+}
+
+div:has( > h2) ~ div {
+	position: relative;
+	left: 30px;
+}
+*/
+
+/* TODO: collapse indicator always visible */
+
+
+
+
+h1 {
+  margin-top: 8px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  border-bottom: solid 1px #444444;
+}
+
+div.HyperMD-header-1 {
+  margin-top: 8px;
+  padding-top: 5px;
+  padding-bottom: 6px !important;
+  border-bottom: solid 1px #444444;
+}
+
+
+h2 {
+    margin-block-start: var(--size-4-3) !important;
+}
+
+svg * {
+	stroke-linecap: square;
+	stroke-linejoin: miter;
+	rx: 0;
+	ry: 0;
+}
+
+.menu {
+	padding: var(--size-2-1);
+}
+
+.menu-item {
+	padding: var(--size-4-1) var(--size-4-2);
+}
+
+.menu-separator {
+	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
+}
